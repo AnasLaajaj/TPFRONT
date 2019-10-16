@@ -1,13 +1,76 @@
-html, button, input, select, textarea {
-    color: #444;
+html, body {
+     font-family: 'Lato',
+      helvetica,
+       arial,
+       sans-serif;
+        font-size: 16px;
+        color: #444;
+        line-height: 1rem;
+        background-color: rgb(25, 56, 71);
+
+    }
+dd{
+    color: white;
 }
 
-html {
-    font-size: 1em;
-    line-height: 1.4;
-    background-color: rgb(25, 56, 71);}
-    
     #wrapper {
+        padding: 0 40px;
 min-width: 320px;
 max-width: 900px;
+margin-left: auto;
+margin-right: auto;
+text-align: justify;
+border-color: gray;
+
     }
+   
+body {
+    width: 90%;
+	max-width: 800px;
+	margin: 30px auto;
+}
+
+    #wrapper h1 {
+        color: black;
+        background-color: #1abc9c;
+        display: block;
+        padding: 3px;
+    }
+    #wrapper h4,dt {
+        color: #1abc9c;
+    }
+    p {
+        color: white;
+    }
+    header {
+        text-align: left;
+        background: #1abc9c;
+        color: white;
+        font-size: 13px;
+        padding: 25px 35px;
+        border-bottom: 2px solid #cf8a05;
+        padding: 15px 15px;
+
+
+        }
+        img {
+            float: right;
+            border: 1px;
+            display: block;
+            margin: auto;
+            border-radius: 3px;
+            border-color: #ccc;
+            box-shadow: 0 2px 4px egba(0,0,0,0.2);
+            height: auto;
+            width: 14.5%;
+	        margin-right: 30px;
+        
+        }
+        dt {
+            font-weight: bold;
+        }
+        
+        dl,
+        dd {
+            font-size: .9rem;
+        }
